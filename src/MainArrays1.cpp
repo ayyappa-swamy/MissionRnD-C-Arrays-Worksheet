@@ -16,7 +16,13 @@ int main(){
 	int *newarray=sortedArrayInsertNumber(arr, 3, 3);
 	printf("%d %d %d %d", newarray[0], newarray[1], newarray[2],newarray[3]);
 	*/
+	int Arr[5] = { 1, 2, 1, 1, 2 };
+	removeArrayDuplicates(Arr, 5);
 
+	int ind = 0;
 
+	for (ind = 0; ind < 5; ind++)
+		printf("%d ", Arr[ind]);
+	
 	return 0;
 }
